@@ -5,8 +5,8 @@ $db       = 'phpbook-1';             // Name of the database
 $port     = '';                      // Port is usually 8889 in MAMP and 3306 in XAMPP
 $charset  = 'utf8mb4';               // UTF-8 encoding using 4 bytes of data per character
 
-$username = 'YOUR USERNAME';         // Enter YOUR username here
-$password = 'YOUR PASSWORD';         // Enter YOUR password here
+$username = 'root';         // Enter YOUR username here
+$password = '';         // Enter YOUR password here
 
 $options  = [                        // Options for how PDO works
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
